@@ -1,0 +1,85 @@
+*{
+    margin:0;
+    padding:0;
+    outline:0;
+    box-sizing: border-box;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.container{
+    width:60rem;
+    height:auto;
+    margin: 2rem auto;
+    background-color: crimson;
+    border-radius:.5rem;
+
+}
+
+h1, h2, li{
+    color:white;
+}
+span{
+    margin-left:23rem;
+    color:yellow;
+}
+
+h1{
+    font-size:1.5rem;
+    text-align:center;
+    padding-top:.75rem;
+}
+h2{ margin-top:1.5rem;
+    font-size:1.5rem;
+    text-align:center;
+}
+
+
+input{
+    margin:1.75rem 0rem 0rem 5rem;
+    width:22rem;
+    height:1.85rem;
+    border-radius:.25rem;
+    border:none;
+    outline:none;
+    font-size:1.2rem;
+    color:crimson;
+   
+}
+input::placeholder{
+    color:blue;
+    padding:.25rem;
+    font-size: 1.15rem;
+ 
+}
+ul{
+    margin:1rem 0rem 0rem 5rem;
+}
+li{
+    font-size:1.25rem;
+    margin-top:.5rem;
+    text-decoration: underline;
+    text-transform: capitalize;
+}
+button{
+    width:7rem;
+    height:1.85rem;
+    border-radius:.25rem;
+    text-transform: uppercase;
+    border:none;
+    outline:none;
+    background-color:blue;
+    color:white;
+    font-size:.85rem;
+    font-weight:bold;
+    cursor: pointer;
+    margin-left:.5rem;
+    margin-top:.5rem;
+    transition:background-color 750ms ease, color 750ms ease;
+}
+
+button:hover{
+    background-color: white;
+    color:blue;
+}
+
